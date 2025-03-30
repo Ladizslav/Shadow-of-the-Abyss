@@ -1,21 +1,42 @@
-MIT License
+Česká verze - "Otevřená licence s etickým kodexem"
+Verze 1.0
+© Ladislav Dobiáš, 2025
 
-Copyright (c) 2025 Ladislav Dobiáš
+Práva:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1.Volné použití, úpravy a distribuce softwaru pro jakýkoliv účel.
+2.Povolena komerční i nekomerční využití.
+3.Možnost začlenění do proprietárních řešení.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Podmínky:
+Uvedení autora: Všechny kopie musí obsahovat původní copyright a tento licenční text.
+Zodpovědné využití: Software nesmí být používán k:
+  - Porušování lidských práv nebo šíření nenávisti.
+  - Vývoji autonomních zbraňových systémů.
+  - Hromadnému sledování bez souhlasu uživatelů.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Dobrovolný příspěvek: Pokud software generuje zisk, doporučuje se finanční nebo technická podpora původního autora (není vynutitelné).
+
+Vyloučení záruky:
+Software je poskytován "tak, jak je", bez záruk. Autoři neodpovídají za škody způsobené jeho použitím.
+
+English Version - "Open License with Ethical Code"
+Version 1.0
+© Ladislav Dobiáš, 2025
+
+Permissions:
+1. Free use, modification, and distribution for any purpose.
+2. Commercial and non-commercial use allowed.
+3. Incorporation into proprietary solutions permitted.
+
+Terms:
+Attribution: All copies must retain the original copyright and license text.
+Ethical Use Restrictions: The software may not be used for:
+  - Human rights violations or hate speech.
+  - Developing autonomous weapon systems.
+  - Mass surveillance without user consent.
+
+Voluntary Support: If the software generates profit, supporting the original author (financially/technically) is encouraged (non-enforceable).
+
+Disclaimer:
+Provided "as-is" with no warranties. Authors are not liable for damages.
