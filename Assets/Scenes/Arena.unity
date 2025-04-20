@@ -2085,6 +2085,8 @@ GameObject:
   - component: {fileID: 1276656681}
   - component: {fileID: 1276656680}
   - component: {fileID: 1276656679}
+  - component: {fileID: 1276656684}
+  - component: {fileID: 1276656683}
   m_Layer: 0
   m_Name: Plane (2)
   m_TagString: Untagged
@@ -2134,7 +2136,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 56eef46126ae0ed44b5cebdfa4ef110b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2172,13 +2174,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276656678}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5842419, y: -0.57, z: -6.7310658}
-  m_LocalScale: {x: 9.127761, y: 9.127761, z: 9.127761}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 3.5843, y: -29.9, z: -6.7311}
+  m_LocalScale: {x: 60.842003, y: 29.946432, z: 60.842003}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!65 &1276656683
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276656678}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.2204463e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1276656684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276656678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1ad31ea34473a4998be019dd1decef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1279804177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,7 +2876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 26128464721361529, guid: 81ec20a7e6208954aa97a85b2ab3fc4c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1e-45
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 26128464721361529, guid: 81ec20a7e6208954aa97a85b2ab3fc4c, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2929,15 +2964,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1478978424910256301, guid: 81ec20a7e6208954aa97a85b2ab3fc4c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.1104315
+      value: 0.110431515
       objectReference: {fileID: 0}
     - target: {fileID: 1478978424910256301, guid: 81ec20a7e6208954aa97a85b2ab3fc4c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000148100225
+      value: -8.6644906e-16
       objectReference: {fileID: 0}
     - target: {fileID: 1478978424910256301, guid: 81ec20a7e6208954aa97a85b2ab3fc4c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000016455577
+      value: 1.7028691e-16
       objectReference: {fileID: 0}
     - target: {fileID: 2772826386358303769, guid: 81ec20a7e6208954aa97a85b2ab3fc4c, type: 3}
       propertyPath: m_FollowOffset.y
@@ -3142,8 +3177,8 @@ Transform:
   m_GameObject: {fileID: 1784173423}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.4841204, y: -4.19, z: -0.8630904}
-  m_LocalScale: {x: 83.445, y: 8.6846, z: 64.135}
+  m_LocalPosition: {x: 5.4841204, y: -18.7, z: -0.8630904}
+  m_LocalScale: {x: 83.445, y: 36.99813, z: 64.135}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3510,7 +3545,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 9.999999, y: 0.33, z: 9.999999}
